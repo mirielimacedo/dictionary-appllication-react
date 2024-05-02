@@ -18,10 +18,30 @@ function App() {
         </main>
 
         <footer className="App-footer">
-          {" "}
-          Coded by <a href="https://www.linkedin.com/feed/">
-            Mirieli Maria
+          This project was coded by {""}
+          <a
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Mirieli Maria{" "}
           </a>{" "}
+          and is {""}
+          <a
+            href="https://github.com/mirielimacedo/dictionary-appllication-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-source on GitHub {""}
+          </a>
+          and{""}
+          <a
+            href="https://app.netlify.com/sites/my-dictionary-app-shecodes/deploys/663321ef5ac4787049621491"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {""} hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
