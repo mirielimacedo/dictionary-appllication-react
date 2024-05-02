@@ -22,7 +22,7 @@ function App() {
           <a
             href="https://www.linkedin.com/feed/"
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
           >
             Mirieli Maria{" "}
           </a>{" "}
@@ -30,7 +30,7 @@ function App() {
           <a
             href="https://github.com/mirielimacedo/dictionary-appllication-react"
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
           >
             open-source on GitHub {""}
           </a>
@@ -38,7 +38,7 @@ function App() {
           <a
             href="https://app.netlify.com/sites/my-dictionary-app-shecodes/deploys/663321ef5ac4787049621491"
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
           >
             {""} hosted on Netlify
           </a>
