@@ -1,0 +1,14 @@
+.dictionary{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #505050;
+       
+}
+.form-inline {
+    justify-content: center;
+    /* Centraliza o formulário na página */
+}
+.input-group {
+    max-width: 500px;
+    /* Limita a largura do campo de entrada e botão */
+}
