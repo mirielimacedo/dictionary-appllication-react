@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Dictionary.css";
 
@@ -6,13 +7,20 @@ export default function Dictionary() {
   const [keyword, setKeyWord] = useState("");
 
   const handleFocus = (event) => {
-    event.target.style.background = "#e9ecef"; // Por exemplo, muda a cor de fundo
+    event.target.style.background = "#e9ecef";
   };
+
+  function handleResponse(response) {
+    console.log(response.data[0]);
+  }
 
   function search(event) {
     event.preventDefault();
-    alert(`searching for ${keyword}  defintion`);
+
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word={word}&key=${keyword}`;
+    axios.get(apiUrl).then(handleResponse);
   }
+
   function handleKeywordChange(event) {
     setKeyWord(event.target.value);
   }
