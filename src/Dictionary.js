@@ -44,7 +44,7 @@ export default function Dictionary() {
             ></input>
             <div className="input-group-append">
               <button className="btn btn-primary ms-2" type="submit">
-                Submit
+                Search
               </button>
             </div>
           </div>
