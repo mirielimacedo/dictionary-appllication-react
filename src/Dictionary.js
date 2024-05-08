@@ -37,7 +37,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div>
-        <h1 className="dictionary">Dictionary</h1>
+        <h1 className="dictionary">What word do you want to look up?</h1>
         <section>
           <div className="d-flex justify-content-center">
             <form onSubmit={handleSubmit} className="form-inline">
@@ -48,6 +48,7 @@ export default function Dictionary(props) {
                   className="form-control ms-2 rounded"
                   placeholder="Enter a word"
                   onFocus={handleFocus}
+                  defaultValue={props.defaultKeyword}
                 ></input>
                 <div className="input-group-append">
                   <button className="btn btn-primary ms-2" type="submit">
